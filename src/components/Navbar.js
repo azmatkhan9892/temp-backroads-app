@@ -30,12 +30,7 @@ const Navbar = () => {
             {socialLinks.map((slinks) => {
               return (
                 <li key={slinks.id}>
-                  <a
-                    href={slinks.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    class="nav-icon"
-                  >
+                  <a href={slinks.href} target="_blank" class="nav-icon">
                     <i class={slinks.icon}></i>
                   </a>
                 </li>
